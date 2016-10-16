@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		81C5A1AA1DB4290A00A01D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C5A1A91DB4290A00A01D6A /* AppDelegate.swift */; };
-		81C5A1AC1DB4290A00A01D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C5A1AB1DB4290A00A01D6A /* ViewController.swift */; };
-		81C5A1AF1DB4290A00A01D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C5A1AD1DB4290A00A01D6A /* Main.storyboard */; };
-		81C5A1B11DB4290B00A01D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C5A1B01DB4290B00A01D6A /* Assets.xcassets */; };
-		81C5A1B41DB4290B00A01D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81C5A1B21DB4290B00A01D6A /* LaunchScreen.storyboard */; };
-		81C5A1BF1DB4290B00A01D6A /* memoriajlzgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C5A1BE1DB4290B00A01D6A /* memoriajlzgTests.swift */; };
-		81C5A1CA1DB4290C00A01D6A /* memoriajlzgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C5A1C91DB4290C00A01D6A /* memoriajlzgUITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		81C5A1BB1DB4290B00A01D6A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,20 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81C5A1A61DB4290A00A01D6A /* memoriajlzg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoriajlzg.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C5A1A91DB4290A00A01D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81C5A1AB1DB4290A00A01D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		81C5A1AE1DB4290A00A01D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		81C5A1B01DB4290B00A01D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81C5A1B31DB4290B00A01D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		81C5A1B51DB4290B00A01D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81C5A1BA1DB4290B00A01D6A /* memoriajlzgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriajlzgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C5A1BE1DB4290B00A01D6A /* memoriajlzgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriajlzgTests.swift; sourceTree = "<group>"; };
-		81C5A1C01DB4290B00A01D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81C5A1C51DB4290C00A01D6A /* memoriajlzgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriajlzgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C5A1C91DB4290C00A01D6A /* memoriajlzgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoriajlzgUITests.swift; sourceTree = "<group>"; };
-		81C5A1CB1DB4290C00A01D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		81C5A1D71DB42B9300A01D6A /* Memoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Memoria.playground; path = ../Memoria.playground; sourceTree = "<group>"; };
+		81C5A1A61DB4290A00A01D6A /* memoriajlzg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = memoriajlzg.app; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzg.app"; sourceTree = "<absolute>"; };
+		81C5A1BA1DB4290B00A01D6A /* memoriajlzgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriajlzgTests.xctest; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzgTests.xctest"; sourceTree = "<absolute>"; };
+		81C5A1C51DB4290C00A01D6A /* memoriajlzgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriajlzgUITests.xctest; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzgUITests.xctest"; sourceTree = "<absolute>"; };
+		81C5A1D71DB42B9300A01D6A /* Memoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Memoria.playground; path = ../../Memoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,53 +58,16 @@
 		81C5A19D1DB4290800A01D6A = {
 			isa = PBXGroup;
 			children = (
-				81C5A1D71DB42B9300A01D6A /* Memoria.playground */,
 				81C5A1A81DB4290A00A01D6A /* memoriajlzg */,
-				81C5A1BD1DB4290B00A01D6A /* memoriajlzgTests */,
-				81C5A1C81DB4290C00A01D6A /* memoriajlzgUITests */,
-				81C5A1A71DB4290A00A01D6A /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		81C5A1A71DB4290A00A01D6A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				81C5A1A61DB4290A00A01D6A /* memoriajlzg.app */,
-				81C5A1BA1DB4290B00A01D6A /* memoriajlzgTests.xctest */,
-				81C5A1C51DB4290C00A01D6A /* memoriajlzgUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		81C5A1A81DB4290A00A01D6A /* memoriajlzg */ = {
 			isa = PBXGroup;
 			children = (
-				81C5A1A91DB4290A00A01D6A /* AppDelegate.swift */,
-				81C5A1AB1DB4290A00A01D6A /* ViewController.swift */,
-				81C5A1AD1DB4290A00A01D6A /* Main.storyboard */,
-				81C5A1B01DB4290B00A01D6A /* Assets.xcassets */,
-				81C5A1B21DB4290B00A01D6A /* LaunchScreen.storyboard */,
-				81C5A1B51DB4290B00A01D6A /* Info.plist */,
+				81C5A1D71DB42B9300A01D6A /* Memoria.playground */,
 			);
 			path = memoriajlzg;
-			sourceTree = "<group>";
-		};
-		81C5A1BD1DB4290B00A01D6A /* memoriajlzgTests */ = {
-			isa = PBXGroup;
-			children = (
-				81C5A1BE1DB4290B00A01D6A /* memoriajlzgTests.swift */,
-				81C5A1C01DB4290B00A01D6A /* Info.plist */,
-			);
-			path = memoriajlzgTests;
-			sourceTree = "<group>";
-		};
-		81C5A1C81DB4290C00A01D6A /* memoriajlzgUITests */ = {
-			isa = PBXGroup;
-			children = (
-				81C5A1C91DB4290C00A01D6A /* memoriajlzgUITests.swift */,
-				81C5A1CB1DB4290C00A01D6A /* Info.plist */,
-			);
-			path = memoriajlzgUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,7 +158,7 @@
 				Base,
 			);
 			mainGroup = 81C5A19D1DB4290800A01D6A;
-			productRefGroup = 81C5A1A71DB4290A00A01D6A /* Products */;
+			productRefGroup = 81C5A19D1DB4290800A01D6A;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -231,9 +174,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C5A1B41DB4290B00A01D6A /* LaunchScreen.storyboard in Resources */,
-				81C5A1B11DB4290B00A01D6A /* Assets.xcassets in Resources */,
-				81C5A1AF1DB4290A00A01D6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +198,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C5A1AC1DB4290A00A01D6A /* ViewController.swift in Sources */,
-				81C5A1AA1DB4290A00A01D6A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C5A1BF1DB4290B00A01D6A /* memoriajlzgTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +212,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C5A1CA1DB4290C00A01D6A /* memoriajlzgUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,25 +229,6 @@
 			targetProxy = 81C5A1C61DB4290C00A01D6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		81C5A1AD1DB4290A00A01D6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81C5A1AE1DB4290A00A01D6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		81C5A1B21DB4290B00A01D6A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81C5A1B31DB4290B00A01D6A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		81C5A1CC1DB4290C00A01D6A /* Debug */ = {
