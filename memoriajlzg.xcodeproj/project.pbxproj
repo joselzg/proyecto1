@@ -27,6 +27,7 @@
 		818454281DB51298002497A2 /* memoriajlzg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = memoriajlzg.app; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzg.app"; sourceTree = "<absolute>"; };
 		818454291DB51298002497A2 /* memoriajlzgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriajlzgTests.xctest; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzgTests.xctest"; sourceTree = "<absolute>"; };
 		8184542A1DB51298002497A2 /* memoriajlzgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriajlzgUITests.xctest; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzgUITests.xctest"; sourceTree = "<absolute>"; };
+		8184542B1DB516E8002497A2 /* memoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = memoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		81C5A19D1DB4290800A01D6A = {
 			isa = PBXGroup;
 			children = (
+				8184542B1DB516E8002497A2 /* memoria.playground */,
 			);
 			sourceTree = "<group>";
 		};
