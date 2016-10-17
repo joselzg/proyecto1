@@ -24,10 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		81C5A1A61DB4290A00A01D6A /* memoriajlzg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = memoriajlzg.app; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzg.app"; sourceTree = "<absolute>"; };
-		81C5A1BA1DB4290B00A01D6A /* memoriajlzgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriajlzgTests.xctest; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzgTests.xctest"; sourceTree = "<absolute>"; };
-		81C5A1C51DB4290C00A01D6A /* memoriajlzgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = memoriajlzgUITests.xctest; path = "/Users/artgs/Desktop/memoriajlzg/build/Debug-iphoneos/memoriajlzgUITests.xctest"; sourceTree = "<absolute>"; };
-		81C5A1D71DB42B9300A01D6A /* Memoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Memoria.playground; path = ../../Memoria.playground; sourceTree = "<group>"; };
+		818454281DB51298002497A2 /* memoriajlzg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoriajlzg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818454291DB51298002497A2 /* memoriajlzgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriajlzgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8184542A1DB51298002497A2 /* memoriajlzgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoriajlzgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C5A1D71DB42B9300A01D6A /* Memoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = Memoria.playground; path = ../Memoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +58,17 @@
 		81C5A19D1DB4290800A01D6A = {
 			isa = PBXGroup;
 			children = (
+				81C5A1D71DB42B9300A01D6A /* Memoria.playground */,
 				81C5A1A81DB4290A00A01D6A /* memoriajlzg */,
+				818454281DB51298002497A2 /* memoriajlzg.app */,
+				818454291DB51298002497A2 /* memoriajlzgTests.xctest */,
+				8184542A1DB51298002497A2 /* memoriajlzgUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
 		81C5A1A81DB4290A00A01D6A /* memoriajlzg */ = {
 			isa = PBXGroup;
 			children = (
-				81C5A1D71DB42B9300A01D6A /* Memoria.playground */,
 			);
 			path = memoriajlzg;
 			sourceTree = "<group>";
@@ -87,7 +90,7 @@
 			);
 			name = memoriajlzg;
 			productName = memoriajlzg;
-			productReference = 81C5A1A61DB4290A00A01D6A /* memoriajlzg.app */;
+			productReference = 818454281DB51298002497A2 /* memoriajlzg.app */;
 			productType = "com.apple.product-type.application";
 		};
 		81C5A1B91DB4290B00A01D6A /* memoriajlzgTests */ = {
@@ -105,7 +108,7 @@
 			);
 			name = memoriajlzgTests;
 			productName = memoriajlzgTests;
-			productReference = 81C5A1BA1DB4290B00A01D6A /* memoriajlzgTests.xctest */;
+			productReference = 818454291DB51298002497A2 /* memoriajlzgTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		81C5A1C41DB4290C00A01D6A /* memoriajlzgUITests */ = {
@@ -123,7 +126,7 @@
 			);
 			name = memoriajlzgUITests;
 			productName = memoriajlzgUITests;
-			productReference = 81C5A1C51DB4290C00A01D6A /* memoriajlzgUITests.xctest */;
+			productReference = 8184542A1DB51298002497A2 /* memoriajlzgUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
